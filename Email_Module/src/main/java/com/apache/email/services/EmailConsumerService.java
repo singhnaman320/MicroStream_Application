@@ -15,8 +15,8 @@ private static final Logger LOGGER = LoggerFactory.getLogger(EmailConsumerServic
 	@KafkaListener(topics = "${spring.kafka.topic.name}", groupId = "${spring.kafka.consumer.group-id}")
 	public void consume(OrderEvent orderEvent) {
 		
-		LOGGER.info(String.format("Consuming Order Event from stock: %S", orderEvent.toString()));
+		LOGGER.info(String.format("Consuming Order Event in email service: %S", orderEvent.toString()));
 		
-		// Save the order event to the database
+		// Send an email to customer
 	}
 }
