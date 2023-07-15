@@ -1,4 +1,4 @@
-package com.apache.domains.models;
+package com.apache.domains.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
