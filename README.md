@@ -2,7 +2,8 @@
 This repository deals with the code base of MicroStream application which is developed using Spring Boot, event-driven microservices, and Apache Kafka.
 <hr>
 <hr>
-<h2>Tech-Stacks and Tools:</h2>
+
+<h2>[] Tech-Stacks and Tools:</h2>
 <table width = 100%>
 <tbody>
 <tr align="top">
@@ -45,3 +46,9 @@ This repository deals with the code base of MicroStream application which is dev
 </table>
 <hr>
 <hr>
+
+<h2>[] Architecture Diagram:</h2>
+<img width = 100% src="https://github.com/singhnaman320/MicroStream_Application/blob/master/Application%20PNG/EventDrivenMicroservicesArchitecture.png?raw=true"/> 
+
+<hr>
+<>hr
