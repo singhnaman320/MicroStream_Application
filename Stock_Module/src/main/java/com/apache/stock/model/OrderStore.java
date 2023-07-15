@@ -17,4 +17,35 @@ public class OrderStore {
 	
 	@Lob
 	private String stockEvent;
+
+	public OrderStore(Long orderId, String stockEvent) {
+		super();
+		this.orderId = orderId;
+		this.stockEvent = stockEvent;
+	}
+
+	public OrderStore() {
+		super();
+	}
+
+	@Override
+	public String toString() {
+		return "OrderStore [orderId=" + orderId + ", stockEvent=" + stockEvent + "]";
+	}
+
+	public Long getOrderId() {
+		return orderId;
+	}
+
+	public void setOrderId(Long orderId) {
+		this.orderId = orderId;
+	}
+
+	public String getStockEvent() {
+		return stockEvent;
+	}
+
+	public void setStockEvent(String stockEvent) {
+		this.stockEvent = stockEvent;
+	}
 }
