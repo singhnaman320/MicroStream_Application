@@ -1,4 +1,4 @@
-package com.apache.stock.databaseModel;
+package com.apache.stock.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
