@@ -11,3 +11,5 @@ public class BaseDomainsApplication {
 	}
 
 }
+
+// Base_Domain is stand alone project, so we don't have to run it on Tomcat. we will be creating domain entities in base domain 
