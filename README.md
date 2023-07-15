@@ -51,4 +51,4 @@ This repository deals with the code base of MicroStream application which is dev
 <img width = 100% src="https://github.com/singhnaman320/MicroStream_Application/blob/master/Application%20PNG/EventDrivenMicroservicesArchitecture.png?raw=true"/> 
 
 <hr>
-<>hr
+<hr>
