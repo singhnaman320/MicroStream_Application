@@ -36,6 +36,8 @@ public class StockConsumerService {
 		orderStore.setStockEvent(orderEvent.toString());
 		
 		orderStoreRepo.save(orderStore); // Orders which are placed are stored into database
+		
+		System.out.println("Order details saved into database successfully.!");
 			
 	}
 }
