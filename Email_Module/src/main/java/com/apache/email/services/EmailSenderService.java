@@ -16,5 +16,12 @@ public class EmailSenderService {
 		SimpleMailMessage message = new SimpleMailMessage();
 		
 		message.setFrom("${spring.mail.username}");
+		message.setTo(toEmail);
+		message.setText(body);
+		message.setSubject(subject);
+		
+		mailSender.send(message);
+		
+		System.out.println("Mail sent successfully.!");
 	}
 }
